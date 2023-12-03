@@ -21,6 +21,17 @@
             padding: 1em;
         }
 
+        nav {
+            background-color: #333;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
         section {
             max-width: 800px;
             margin: 20px auto;
@@ -63,10 +74,18 @@
         <p>Freelance Editor</p>
     </header>
 
-    <section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+
+    <section id="about">
         <h2>About Me</h2>
         <p>Introduce yourself here. Highlight your experience, skills, and what sets you apart as a freelance editor.</p>
+    </section>
 
+    <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-item">
             <h3>Project Title 1</h3>
